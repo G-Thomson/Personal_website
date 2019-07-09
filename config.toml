@@ -1,10 +1,11 @@
 # Page settings
 
-    baseurl = "http://example.org/"
+baseurl = "http://g-thomson.com.netlify.com/"
 languageCode = "en-us"
 title = "Geoffrey Thomson CV"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
