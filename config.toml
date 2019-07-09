@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://g-thomson.netlify.com/"
+baseurl = "https://g-thomson  .netlify.com/"
 languageCode = "en-us"
 title = "Geoffrey Thomson CV"
 theme = "hugo-orbit-theme"
@@ -132,7 +132,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**I am a Postdoctoral Associate** in the Jacob Lab at Yale University. I am interested in understanding the molecular underpinnings of plant development and how they can be manipulated for beneficial ends. Previously I have recieved a PhD from The University of Auckland looking at photoperiodic flowering *Medicago truncatula*. I also have a BA in English."
+        summary = "**I am a Postdoctoral Associate** in the Jacob Lab at Yale University. I am interested in understanding the molecular underpinnings of plant development and how they can be manipulated for beneficial ends. Previously I have recieved a PhD from The University of Auckland looking at photoperiodic flowering in legumes. I also have a BA in English, like tramping, podcasts and dogs!."
 
     # Skills section
     [params.skills]
