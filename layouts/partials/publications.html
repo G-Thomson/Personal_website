@@ -1,0 +1,8 @@
+            <section class="section publications-section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.publications.icon }}"></i>{{ .Site.Params.publications.title }}</h2>
+				{{ range .Site.Params.publications.list }}
+                <div class="item">
+                    <span class="publications-authors">{{ with .authors }}{{ . | markdownify }}{{ end }}</span> (<span class="publications-year">{{ .year }}</span>) <span class="publications-title">{{ with .title }}{{ . | markdownify }}{{ end }}</span> <span class="publications-reference">{{ with .reference }}{{ . | markdownify }}{{ end }}</span> DOI: <span class="publications-DOI"><a href="{{ .url }}">{{ .DOI }}</a></span>
+                </div><!--//item-->
+				{{ end }}
+            </section><!--//section-->

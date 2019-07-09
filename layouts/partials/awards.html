@@ -1,0 +1,9 @@
+<section class="section awards-section">
+  <h2 class="section-title"><i class="fa {{ .Site.Params.awards.icon }}"></i>{{ .Site.Params.awards.title }}</h2>
+  
+      {{ range .Site.Params.awards.list }}
+    <div class="item">
+      <span class="award-title">{{ .title }}</span> - <span class="award-tagline">{{ with .tagline }}{{ . | markdownify }}{{ end }}</span>
+        </div><!--//item-->
+        {{ end }}
+      </section><!--//section-->
