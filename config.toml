@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://g-thomson.com.netlify.com/"
+baseurl = "https://g-thomson.netlify.com/"
 languageCode = "en-us"
 title = "Geoffrey Thomson CV"
 theme = "hugo-orbit-theme"
