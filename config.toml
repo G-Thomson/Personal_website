@@ -1,4 +1,4 @@
-baseURL = "https://g-thomson.com/"
+baseURL = "g-thomson.netlify.app/"
 languageCode = "en-us"
 title = "g-thomson.com"
 theme = "hugo-uilite"

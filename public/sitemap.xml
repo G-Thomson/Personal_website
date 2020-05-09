@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/g-thomson.netlify.app/categories/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/g-thomson.netlify.app/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/g-thomson.netlify.app/tags/</loc>
   </url>
   
 </urlset>
