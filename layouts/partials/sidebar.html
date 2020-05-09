@@ -1,0 +1,53 @@
+{{ $sidebar := .Site.Data.sidebar }}
+{{ $social := .Site.Data.social }}
+{{ $socialfas := .Site.Data.socialfas}}
+
+<section id="sidebar" class="sidebar d-flex align-items-center p-5">
+  <div class="main-info">
+
+    <img src="{{.Site.BaseURL}}images/{{ $sidebar.displayPicture }}" class="rounded-circle mb-3" width="160px">
+
+    <h1 class="heading">{{ $sidebar.title }} <br> <span class="highlight">{{ $sidebar.highlightedText }}</span></h1>
+    <p class="text-muted">{{ $sidebar.description }}</p>
+
+    <div class="social my-4">
+
+      {{ range $key, $value := $social }}
+        <a target="_blank" href="{{ $value }}" rel="me">
+          <i class="fab fa-{{ $key }}"></i>
+        </a>
+      {{ end }}
+      
+      <a target="_blank" href="https://scholar.google.com/citations?user=ivWnX2cAAAAJ&hl=en">
+        <i class="ai ai-google-scholar bs"></i>
+      </a>
+
+      {{ range $key, $value := $socialfas }}
+        <a target="_blank" href="{{ $value }}">
+          <i class="fas fa-{{ $key }}"></i>
+        </a>
+      {{ end }}
+
+    </div>
+    
+    <div class="links">
+    
+    <a target="_blank" href="{{ .Site.BaseURL }}pdfs/GT_CV.pdf">
+        <i class="far fa-file bs"></i> <text class="text-muted" style="font-size=1rem">Curriculum vitae</text>
+    </a>
+    
+    <br><br>
+    
+    <a target="_blank" href="http://g-thomson.blog/">
+        <i class="far fa-lightbulb bs"></i> <text class="text-muted">Check out my blog!</text>
+    </a>
+
+    </div>
+    
+    <br><br>
+    
+    <a href="#contact" class="btn btn-dark btn-lg">Contact</a>
+
+
+  </div>
+</section>

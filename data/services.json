@@ -1,0 +1,11 @@
+{
+	"title" : "Services",
+	"services" : [
+		{
+			"icon" : "pencil-ruler",
+			"title" : "Manuscript review",
+			"description" : "I have acted as a reviewer for the following journals: Scientific Reports and PeerJ. "
+		},
+		{}
+	]
+}

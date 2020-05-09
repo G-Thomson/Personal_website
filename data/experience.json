@@ -1,0 +1,20 @@
+{
+	"title" : "Experience",
+	"experience" : [
+		{
+			"timeperiod" : "July 2019 - Present",
+			"company" : "Yale University",
+			"description" : " Postdoctoral Associate in the Jacob Lab at Yale University. My work involves developing new plant genome editing tools. "
+		},
+		{
+			"timeperiod" : "March 2015 - March 2019",
+			"company" : "The University of Auckland",
+			"description" : " As a PhD candidate I studied photoperiodic flowering Medicago truncatula. "
+		},
+	  {
+			"timeperiod" : "March 2009 - November 2014",
+			"company" : "The University of Auckland",
+			"description" : " As an undergraduate student I recieved a BSc. (Hons.) in Biology and a BA in English."
+		}
+	]
+}

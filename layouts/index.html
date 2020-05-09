@@ -1,51 +1,22 @@
-<!DOCTYPE html>
-    {{ partial "lang.html" . }}
-<head>
-    {{ partial "head.html" . }}
-</head>
+{{ partial "header.html" . }}
+{{ partial "sidebar.html" . }}
 
-<body>
-    <div class="wrapper">
+<div class="main-content">
+	{{ partial "interests.html" . }}
+	<!-- {{ if .Site.Data.skills }}{{ partial "skills.html" . }}{{ end }} -->
+	{{ if .Site.Data.experience }}{{ partial "experience.html" . }}{{ end }}
+	<!-- {{ if .Site.Data.services }}{{ partial "services.html" . }}{{ end }} -->
+	{{ if .Site.Data.projects }}{{ partial "projects.html" . }}{{ end }}
+</div>
 
-    {{ partial "sidebar.html" . }}
+<div style="z-index: 4; position: relative;">
+	{{ if gt (len (where .Data.Pages "Type" "blog")) 0 }}{{ partial "blog.html" . }}{{ end }}
+	{{ if gt (len (where .Data.Pages "Type" "work")) 0 }}{{ partial "work.html" . }}{{ end }}
+</div>
 
-	<div class="main-wrapper">
+<div class="main-content">
+	{{ partial "contact.html" . }}		
+</div>
 
-    {{ if .Site.Params.summary.enable }}
-	{{ partial "summary.html" . }}
-    {{ end }}
-    
-    {{ if .Site.Params.skills.enable }}
-	  {{ partial "skills.html" . }}
-    {{ end }}
-    
-    {{ if .Site.Params.publications.enable }}
-    {{ partial "publications.html" . }}
-    {{ end }}
-    
-    
-    {{ if .Site.Params.experiences.enable }}
-    {{ partial "experiences.html" . }}
-    {{ end }}
-    
-    {{ if .Site.Params.teaching.enable }}
-    {{ partial "teaching.html" . }}
-    {{ end }}
-
-    {{ if .Site.Params.projects.enable }}
-    {{ partial "projects.html" . }}
-    {{ end }}
-    
-    {{ if .Site.Params.awards.enable }}
-    {{ partial "awards.html" . }}
-    {{ end }}
+{{ partial "footer-scripts.html" . }}
 	
-	</div><!--//main-body-->
-    </div>
-    
-	{{ partial "footer.html" . }}
-
-    {{ partial "scripts.html" . }}
-</body>
-</html> 
-

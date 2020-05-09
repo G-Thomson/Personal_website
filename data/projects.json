@@ -1,0 +1,15 @@
+{
+	"title" : "Projects",
+	"projects" : [
+		{			
+		  "icon" : "pencil-ruler",
+			"title" : "TBD", 
+			"description" : "Amazing ideas!"
+		},
+		{			
+		  "icon" : "pencil-ruler",
+			"title" : "TBD",
+			"description" : "Super cool!"
+		}
+	]
+}

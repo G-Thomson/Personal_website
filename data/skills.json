@@ -1,0 +1,10 @@
+{
+	"title" : "Skills",
+	"skills" : {
+		"R Programming" : "95",
+		"RNA-Seq analysis" : "90",
+		"Molecular cloning" : "85",
+		"Genome editing" : "80",
+		"Plant transformation" : "75"
+	}
+}
