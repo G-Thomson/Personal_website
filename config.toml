@@ -1,4 +1,4 @@
-baseURL = "https://g-thomson.com"
+baseURL = "https://github.com/G-Thomson/Personal_website/tree/master/static/"
 languageCode = "en-us"
 title = "g-thomson.com"
 theme = "hugo-uilite"
