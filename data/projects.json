@@ -2,9 +2,10 @@
 	"title" : "Projects",
 	"projects" : [
 		{			
-		  "icon" : "pencil-ruler",
-			"title" : "TBD", 
-			"description" : "Amazing ideas!"
+		  "icon" : "kiwi-bird",
+			"title" : "Manu", 
+			"description" : "This is an R package which provides a selection of colour palettes for data visualisation derived from New Zealand birds",
+			"url" : "https://g-thomson.github.io/Manu/"
 		},
 		{			
 		  "icon" : "pencil-ruler",
